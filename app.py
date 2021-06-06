@@ -7,23 +7,34 @@ from pdfminer.layout import LAParams
 from pdfminer.pdfpage import PDFPage
 import io
 import os 
-import base64
+
 
 summarizer = pipeline("summarization")
 
 #Setting background image
-main_bg = "./images/background.png"
-main_bg_ext = "png"
+# main_bg = "./images/background.png"
+# main_bg_ext = "png"
+
+# st.markdown(
+#     f"""
+#     <style>
+#     .reportview-container {{
+#         background: url(data:image/{main_bg_ext};base64,{base64.b64encode(open(main_bg, "rb").read()).decode()})
+#     }}
+#     </style>
+#     """,
+#     unsafe_allow_html=True
+# )
 
 st.markdown(
-    f"""
-    <style>
-    .reportview-container {{
-        background: url(data:image/{main_bg_ext};base64,{base64.b64encode(open(main_bg, "rb").read()).decode()})
-    }}
-    </style>
-    """,
-    unsafe_allow_html=True
+"""
+<style>
+.reportview-container {
+    background: url("https://github.com/AderemiF/Capstone_RLS/blob/main/images/background.png")
+}
+</style>
+""",
+unsafe_allow_html=True
 )
 
 
@@ -92,8 +103,8 @@ file = st.file_uploader(label = 'RLS', type=['pdf'])
 
 #Converting pdf to txt
 if file is not None:
-    # st.write('File successfully uploaded')
-    st.markdown("#### File successfully uploaded")
+    # st.write('File successfully uploaded') 
+    st.markdown("#### File successfully uploaded 🎊")
     st.markdown("#### Why don't you get a cup of coffee while your paper is being converted and summarized...")
 
     def pdf2txt(inPDFfile, outTXTFile):
@@ -122,8 +133,8 @@ if file is not None:
     except Exception as e:
             print(e)
 
-    st.markdown("#### File conversion completed, summarization is ongoing...")
-    st.markdown("#### How about that cup of coffee?")
+    st.markdown("#### File conversion completed, summarization is ongoing 📝 ")
+    st.markdown("#### How about that cup of coffee? ☕️")
 
     #Summarization
     #This is to make text readable after splitting
@@ -185,5 +196,5 @@ if file is not None:
             f.write('\n')
 
     #Notice after summarization is complete
-    st.markdown("#### Summarization complete!")
+    st.markdown("#### Summarization complete! 🎊 🎊 🎊 ")
     st.markdown("#### Check your downloads for 'summary.txt' ")
