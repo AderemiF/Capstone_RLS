@@ -50,7 +50,7 @@ st.image('./images/papers.png')
 expander = st.sidebar.beta_expander('Meet the developer')
 expander.image('./images/Aderemi_net_9760.jpg')
 expander.write('Aderemi Fayoyiwa')
-expander.markdown('[Email](https://mail.google.com/mail/u/0/?fs=1&to=aderemifayoyiwa@gmail.com&su=SUBJECT&body=BODY&tf=cm)   [GitHub](https://github.com/AderemiF)   [Linkedin](https://www.linkedin.com/in/aderemi-fayoyiwa)')
+expander.markdown('[Email](https://mail.google.com/mail/u/0/?fs=1&to=aderemifayoyiwa@gmail.com&su=SUBJECT&body=BODY&tf=cm)   [GitHub](https://github.com/AderemiF)   [Linkedin](https://www.linkedin.com/in/aderemi-fayoyiwa) [Portfolio](https://aderemi-fayoyiwa.herokuapp.com/)')
 
  
 # left_column, right_column = st.beta_columns(2)
