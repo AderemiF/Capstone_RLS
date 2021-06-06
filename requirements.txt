@@ -1,0 +1,5 @@
+torch==1.8.1
+pdfminer==20191125
+transformers==4.5.1
+streamlit==0.82.0
+base64
