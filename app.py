@@ -42,9 +42,10 @@ unsafe_allow_html=True
 
 st.markdown(' # **Research Literature Summarizer (RLS)**')
 st.image('./images/papers.png')
-# expander = st.sidebar.beta_expander('Want to try it out?')
-# expander.markdown('[click here for demo](https://ded-detector.uc.r.appspot.com)')
 
+#Positivus
+expander = st.sidebar.beta_expander('Positivus API')
+expander.markdown('[click here for demo](https://positivus.io/)')
 
 
 expander = st.sidebar.beta_expander('Meet the developer')
