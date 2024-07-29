@@ -14,7 +14,6 @@ RLS reduces the amount of time spent on literature reviews, leading to increased
 ## Models 🤖
 - Body Detecting CNN: pre-trained SSD,
 - Face Detecting CNN: pre-trained SSD,
-- Mask-No-Mask Classifier: MobileNetV2 w/ customized head,
 
 ---
 
@@ -24,11 +23,9 @@ __Language:__ Python
 
 __DL Training:__ PyTorch
 
-__Computer Vision:__ OpenCV, imutils
+__Web App:__ Streamlit, Streamlitshare 
 
-__Web App:__ Streamlit, WebRTC 
-
-__Cloud:__ AWS, Google Cloud Platform
+__Cloud:__ AWS
 
 
 ---
@@ -39,14 +36,5 @@ __Cloud:__ AWS, Google Cloud Platform
 
 ---
 
-## Further optimization 🚧
-For even better performance, we are adding some features and improving some of the existing features of Mask Guard. Here is our plan:
-
-![Road map](https://github.com/Tobias-GH-Schulz/mask-detector/blob/main/app/images/timeline.png "Road map") 
-
----
-
-## Authors 👨🏾‍💻 👩🏾‍💻
-- **Marcin Szleszynski** [Github](https://github.com/martinezpl) , [Linkedin](https://www.linkedin.com/in/marcin-szleszynski-560b021bb/)
+## Author👩🏾‍💻
 - **Aderemi Fayoyiwa** [Github](https://github.com/AderemiF) , [Linkedin](https://www.linkedin.com/in/aderemi-fayoyiwa/)
-- **Tobias Schulz** [Github](https://github.com/Tobias-GH-Schulz) , [Linkedin](https://www.linkedin.com/in/tobias-schulz-77b09691/)
