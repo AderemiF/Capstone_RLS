@@ -1,4 +1,4 @@
-# Capstone_RLS
+# Research Literature Summarizer (RLS)
 
 ---
 
