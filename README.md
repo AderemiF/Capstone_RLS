@@ -17,8 +17,8 @@ RLS reduces the amount of time spent on literature reviews, leading to increased
 - To summarize research papers in a way that keeps vital information intact.
 ---
 
-## Models 🤖
-- Hugging Face transformer: Text summarization pipeline,
+## Model 🤖
+- Hugging Face pretrained transformer: Text summarization pipeline,
 - Text extraction: pdfminer
 
 ---
@@ -27,18 +27,20 @@ RLS reduces the amount of time spent on literature reviews, leading to increased
 
 __Language:__ Python 
 
-__DL Training:__ PyTorch
+__IDE:__ Jupyter
 
 __Web App:__ Streamlit, Streamlitshare 
 
 __Cloud:__ AWS
 
+__Version Control:__ Github/Git
 
 ---
 
 ## How to use ⚒
-- Mask Guard has been deployed as an easy-to-use and interactive web app  
-- You can find more details about Mask Guard and checkout the demo [here](https://maskguard.link/)
+- Upload your pdf file and you will get 2 txt files in your downloads
+- The first is 'file.txt', a txt version of your pdf file  
+- The second is 'summary.txt', the summarized version of your pdf file
 
 ---
 
