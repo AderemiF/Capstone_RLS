@@ -11,6 +11,12 @@ RLS reduces the amount of time spent on literature reviews, leading to increased
 
 ---
 
+## Goals :flags: 
+- To create an application that can effectively summarize research papers.
+- To significantly reduce the amount of time researchers spend on literature reviews.
+- To summarize research papers in a way that keeps vital information intact.
+---
+
 ## Models 🤖
 - Hugging Face transformer: Text summarization pipeline,
 - Text extraction: pdfminer
