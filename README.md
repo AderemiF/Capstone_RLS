@@ -12,8 +12,8 @@ RLS reduces the amount of time spent on literature reviews, leading to increased
 ---
 
 ## Models 🤖
-- Body Detecting CNN: pre-trained SSD,
-- Face Detecting CNN: pre-trained SSD,
+- Hugging Face transformer: Text summarization pipeline,
+- Text extraction: pdfminer
 
 ---
 
